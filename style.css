@@ -160,9 +160,9 @@
 
 .backgraund{
     position: absolute;
-    top:0%;
+    top: 0%;
     left: 0%;
-    min-height: 100vh;
+    min-height: 100%;
     width: 100%;
     background: rgb(6, 27, 36) url(https://sneg.top/uploads/posts/2023-03/1680087654_sneg-top-p-oboi-faervotch-instagram-4.jpg) no-repeat center fixed;
     transition: background 0.5s ease; 
