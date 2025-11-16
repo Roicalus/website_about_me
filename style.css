@@ -4,6 +4,7 @@
     left: 1vw;
     transition: 0.3s all ;
     border-radius: 20px;
+    width: 5vw;
     
 }
 
@@ -27,12 +28,12 @@
     top: 105vh;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;  
-    padding: 12px 18px;
+    padding: 1.2vw 1.8vw;
     background: #399dcb;
     color: white;
     text-decoration: none;
-    font-size: 24px;
-    left: 10vh;
+    font-size: 1.2vw;
+    left: 5vh;
     border-radius: 20px;
     box-shadow: 0 10px 40px rgba(0,0,0,0.5),
                 0 0 0 4px rgba(255,255,255,0.1);
@@ -47,12 +48,12 @@
     top: 105vh;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;  
-    padding: 12px 235px;
+    padding: 0.7vw 14vw;
     background: #399dcb;
     color: white;
     text-decoration: none;
-    font-size: 24px;
-    right: 20vh;
+    font-size: 1.2vw;
+    left: 55vw;
     border-radius: 20px;
     box-shadow: 0 10px 40px rgba(0,0,0,0.5),
                 0 0 0 4px rgba(255,255,255,0.1);
@@ -74,12 +75,12 @@
     top: 130vh;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;  
-    padding: 12px 18px;
+    padding: 1vw 1vw;
     background: #399dcb;
     color: white;
     text-decoration: none;
-    font-size: 24px;
-    right: 25vh;
+    font-size: 1.2vw;
+    right: 12vw;
     border-radius: 20px;
     box-shadow: 0 10px 40px rgba(0,0,0,0.5),
                 0 0 0 4px rgba(255,255,255,0.1);
@@ -105,10 +106,10 @@
 #film{
     position: absolute;
     top: 115vh;
-    right: 50vh;
+    right: 24.4vw;
 }
 .imgfilm{
-    width: 400px;
+    width: 20vw;
     border-radius: 20px;
     box-shadow: 0 10px 40px rgba(0,0,0,0.5),
                 0 0 0 4px rgba(255,255,255,0.1);
@@ -124,11 +125,11 @@
 }
 .link {
     display: inline-block;
-    padding: 16px 36px;
+    padding: 1vw 1.8vw;
     background: linear-gradient(135deg, #399dcb 0%, #2a7aa0 100%);
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1.3vw;
     font-weight: 600;
     border-radius: 30px;
     box-shadow: 0 6px 20px rgba(57, 157, 203, 0.4),
@@ -185,10 +186,10 @@
     cursor: pointer;
     position: absolute;
     display:inline-block;
-    top: 5vh;
-    left :50vh ;
+    top: 5vw;
+    left : 23vw;
     color: #0d909e;
-    font-size: 6em;
+    font-size: 5vw;
     transition: 0.3s all;
     text-shadow: 2px 2px 6px rgba(0,0,0,0.4),
                  0 0 1px rgba(13, 144, 158, 0.3);
@@ -204,8 +205,8 @@ label {
     display:inline-block;
     transition: transform 0.3s ease;
     cursor: pointer;
-    top: 2vh;
-    right: 13vh;
+    top: 1vw;
+    right: 7vw;
 }
 label:hover{
     transform: scale(1.05);  
@@ -213,7 +214,7 @@ label:hover{
 label .sun {
     display:inline-block;
     position: absolute;
-    width: 10vh;
+    width: 5vw;
     transition: opacity 0.5s ease;
     transition: transform 0.5s ease;
     opacity: 1; 
@@ -222,7 +223,7 @@ label .sun {
 label .moon {
     display:inline-block;
     position: absolute;
-    width: 10vh;
+    width: 5vw;
     transition: opacity 0.5s ease;
     transition: transform 0.5s ease;
     opacity: 0;   
