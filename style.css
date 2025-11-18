@@ -1,3 +1,90 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.schedule input[type="radio"] {
+  display: none;
+}
+
+.slides {
+    position: relative;
+    top: 10vw;
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+.slide {
+
+  display: none;
+  padding: 30px;
+  background: rgba(102,126,234,0.2);
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Courier New", monospace;
+  font-size: 22px;
+}
+
+/* Показываем активный слайд */
+#day1:checked ~ .slides #slide1,
+#day2:checked ~ .slides #slide2,
+#day3:checked ~ .slides #slide3,
+#day4:checked ~ .slides #slide4 {
+  display: block;
+}
+
+/* Кнопки навигации */
+.nav {
+    
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.nav label {
+    top: 50%;
+    padding: 10px 20px;
+    background: #667eea;
+    color: white;
+     border-radius: 5px;
+     cursor: pointer;
+     font-family: "Courier New", monospace;
+     font-weight: 600;
+     transition: background 0.3s;
+}
+
+.nav label:hover {
+  background: #764ba2;
+}
+
+/* Отображаем только нужные кнопки */
+.day1 { display: none; }
+.day2 { display: none; }
+.day3 { display: none; }
+.day4 { display: none; }
+
+
+
+#day1:checked ~ .nav .day1,
+#day2:checked ~ .nav .day2,
+#day3:checked ~ .nav .day3,
+#day4:checked ~ .nav .day4 {
+  display: inline-block;
+}
+
+/* Пассивный слайдшоу (каждые 4 секунды на слайд) */
+.slides {
+  animation: slideShow 16s infinite;
+}
+
+@keyframes slideShow {
+  0%, 24% { #slide1 { display: block; } }
+  25%, 49% { #slide2 { display: block; } }
+  50%, 74% { #slide3 { display: block; } }
+  75%, 100% { #slide4 { display: block; } }
+}
+
 
 
 body {
@@ -82,7 +169,7 @@ body:has(#toggle:checked)::after {
     color: white;
     text-decoration: none;
     font-size: 1.2vw;
-    right: 50%;
+    left: 5%;
     border-radius: 20px;
     box-shadow: 0 10px 40px rgba(0,0,0,0.5),
                 0 0 0 4px rgba(255,255,255,0.1);
@@ -130,7 +217,7 @@ body:has(#toggle:checked)::after {
 .textfilm{
     cursor: default;
     position: absolute;
-    top: 130%;
+    top: 115%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;  
     padding: 1vw 1vw;
@@ -138,7 +225,7 @@ body:has(#toggle:checked)::after {
     color: white;
     text-decoration: none;
     font-size: 1.2vw;
-    right: 12vw;
+    right: 5% ;
     border-radius: 20px;
     box-shadow: 0 10px 40px rgba(0,0,0,0.5),
                 0 0 0 4px rgba(255,255,255,0.1);
@@ -158,7 +245,7 @@ body:has(#toggle:checked)::after {
 #film{
     position: absolute;
     top: 115%;
-    right: 24.4vw;
+    right: 34%;
 }
 .imgfilm{
     width: 20vw;
