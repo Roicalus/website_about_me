@@ -1,3 +1,32 @@
+.textMon{
+    cursor: default;
+    position: absolute;
+    top: 1480px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;  
+    padding: 0.7vw 14vw;
+    background: #399dcb;
+    color: white;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    left: 52vw;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5),
+                0 0 0 4px rgba(255,255,255,0.1);
+    transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+    animation: fadeInUp 1s ease-out 0.3s both;
+    filter: brightness(0.95);
+     justify-content: center;
+}
+
+.textMon:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 50px rgba(0,0,0,0.6),
+                0 0 0 6px rgba(255,255,255,0.2);
+    filter: brightness(1.05); 
+}
+
 table{
     margin: auto;
     vertical-align: middle;
@@ -5,7 +34,7 @@ table{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     justify-content: center;
     height: 18%;
-    background-color: #399dcb;
+    background-color: #5ea9cb8d;
     padding: 12px;
     border-radius: 20px;
     box-sizing: 4px 4px 8px rgba(0, 0, 0, 0.6);
@@ -33,21 +62,32 @@ html{
 
 .slides {
     position: relative;
-    top: 1000px;
-    max-width: 27vw;
+    top: 1500px;
+    max-width: 33.5vw;
+    left: 20vw;
     margin: 50px auto;
 }
 
 .slide {
-
-  display: none;
-  padding: 30px;
-  background: #399dcb88;
-  border-radius: 10px;
-  text-align: center;
-  font-family: "Courier New", monospace;
-  font-size: 22px;
-   color: white;
+    display: none;
+    padding: 30px;
+    background: #399dcb88;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "Courier New", monospace;
+    font-size: 1.3vw;
+    color: white;
+     box-shadow: 0 10px 40px rgba(0,0,0,0.5),
+                0 0 0 4px rgba(255,255,255,0.1);
+    transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+    animation: fadeInUp 1s ease-out 0.3s both;
+    filter: brightness(0.95);
+}
+.slide:hover{
+    transform: scale(1.02);
+    box-shadow: 0 15px 50px rgba(0,0,0,0.6),
+                0 0 0 6px rgba(255,255,255,0.2);
+    filter: brightness(1.05); 
 }
 
 #day1:checked ~ .slides #slide1,
@@ -57,8 +97,7 @@ html{
   display: block;
 }
 
-.nav {
-    
+.nav { 
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -67,19 +106,38 @@ html{
 }
 
 .nav label {
-    top: 50%;
+    position: relative;
     padding: 10px 20px;
     background: #399dcb;
     color: white;
-     border-radius: 5px;
-     cursor: pointer;
-     font-family: "Courier New", monospace;
-     font-weight: 600;
-     transition: background 0.3s;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Courier New", monospace;
+    font-weight: 600;
+     box-shadow: 0 10px 40px rgba(0,0,0,0.5),
+                0 0 0 4px rgba(255,255,255,0.1);
+    transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+    animation: fadeInUp 1s ease-out 0.3s both;
+    filter: brightness(0.95);
+}
+.next{
+    top: 1400px;
+    left: 33vw;
+}
+.prev{   
+    top: 1400px;
+    left: 7vw;
 }
 
-.nav label:hover {
-  background: #3eabdd;
+.next:hover {
+    box-shadow: 0 15px 50px rgba(0,0,0,0.6),
+                0 0 0 6px rgba(255,255,255,0.2);
+    filter: brightness(1.05); 
+}
+.prev:hover {
+    box-shadow: 0 15px 50px rgba(0,0,0,0.6),
+                0 0 0 6px rgba(255,255,255,0.2);
+    filter: brightness(1.05); 
 }
 
 
@@ -214,7 +272,7 @@ body:has(#toggle:checked)::after {
 .textfilmf{
     cursor: default;
     position: absolute;
-    top: 1400px;
+    top: 2000px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;  
     padding: 0.7vw 14vw;
@@ -237,6 +295,9 @@ body:has(#toggle:checked)::after {
                 0 0 0 6px rgba(255,255,255,0.2);
     filter: brightness(1.05); 
 }
+
+
+
 
 .textfilm{
     cursor: default;
