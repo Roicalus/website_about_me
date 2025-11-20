@@ -1,3 +1,28 @@
+table{
+    margin: auto;
+    vertical-align: middle;
+    writing-mode: vertical-rl;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    height: 18%;
+    background-color: #399dcb;
+    padding: 12px;
+    border-radius: 20px;
+    box-sizing: 4px 4px 8px rgba(0, 0, 0, 0.6);
+    border:#ffffff;
+}
+
+tr, td{
+    writing-mode: horizontal-tb;
+    
+
+}
+tr{
+    border: #1b92bdcc;
+}
+
+
+
 html{
     scroll-behavior: smooth;
 }
@@ -8,8 +33,8 @@ html{
 
 .slides {
     position: relative;
-    top: 10vw;
-    max-width: 500px;
+    top: 1000px;
+    max-width: 27vw;
     margin: 50px auto;
 }
 
@@ -17,11 +42,12 @@ html{
 
   display: none;
   padding: 30px;
-  background: rgba(102,126,234,0.2);
+  background: #399dcb88;
   border-radius: 10px;
   text-align: center;
   font-family: "Courier New", monospace;
   font-size: 22px;
+   color: white;
 }
 
 #day1:checked ~ .slides #slide1,
@@ -159,7 +185,7 @@ body:has(#toggle:checked)::after {
 #Textmy{
     cursor: default;
     position: absolute;
-    top: 107%;
+    top: 1000px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;  
     padding: 1vw 1vw;
@@ -188,7 +214,7 @@ body:has(#toggle:checked)::after {
 .textfilmf{
     cursor: default;
     position: absolute;
-    top: 105%;
+    top: 1400px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;  
     padding: 0.7vw 14vw;
@@ -215,7 +241,7 @@ body:has(#toggle:checked)::after {
 .textfilm{
     cursor: default;
     position: absolute;
-    top: 115%;
+    top: 2000px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;  
     padding: 1vw 1vw;
@@ -242,7 +268,7 @@ body:has(#toggle:checked)::after {
 
 #film{
     position: absolute;
-    top: 115%;
+    top: 2000px;
     right: 34%;
 }
 .imgfilm{
