@@ -24,7 +24,6 @@ html{
   font-size: 22px;
 }
 
-/* Показываем активный слайд */
 #day1:checked ~ .slides #slide1,
 #day2:checked ~ .slides #slide2,
 #day3:checked ~ .slides #slide3,
@@ -32,7 +31,6 @@ html{
   display: block;
 }
 
-/* Кнопки навигации */
 .nav {
     
   display: flex;
@@ -45,7 +43,7 @@ html{
 .nav label {
     top: 50%;
     padding: 10px 20px;
-    background: #667eea;
+    background: #399dcb;
     color: white;
      border-radius: 5px;
      cursor: pointer;
@@ -55,10 +53,10 @@ html{
 }
 
 .nav label:hover {
-  background: #764ba2;
+  background: #3eabdd;
 }
 
-/* Отображаем только нужные кнопки */
+
 .day1 { display: none; }
 .day2 { display: none; }
 .day3 { display: none; }
@@ -73,7 +71,7 @@ html{
   display: inline-block;
 }
 
-/* Пассивный слайдшоу (каждые 4 секунды на слайд) */
+
 .slides {
   animation: slideShow 16s infinite;
 }
