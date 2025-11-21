@@ -248,7 +248,7 @@ body:has(#theme-toggle:checked) .navbar {
     background-position: center;
     background-attachment: fixed;
     z-index: -1;
-    transition: opacity 0.5s ease;
+    transition: all 0.8s ease;
 }
 
 body:has(#theme-toggle:checked) .hero::before {
@@ -978,7 +978,7 @@ body:has(#theme-toggle:checked) .hero::before {
         max-height: 600px;
     }
     .mood img {
-        max-height: 500px;
+        max-height: 600px;
     }
 }
 
@@ -998,7 +998,7 @@ body:has(#theme-toggle:checked) .hero::before {
         max-height: 520px;
     }
     .mood img {
-        max-height: 520px;
+        max-height: 500px;
     }
 }
 
@@ -1031,7 +1031,7 @@ body:has(#theme-toggle:checked) .hero::before {
     }
 
     .mood img {
-        max-height: 480px;
+        max-height: 400px;
     }
 }
 
@@ -1084,9 +1084,17 @@ body:has(#theme-toggle:checked) .hero::before {
     }
 
     .mood img {
-        max-height: 450px;
+        max-height: 500px;
         max-width: 340px;
         margin: 0 auto;
+    }
+    .mood table{
+        margin: auto;
+        vertical-align: middle;
+        writing-mode: vertical-rl;
+    }
+    tr, th{
+    writing-mode: horizontal-tb;
     }
 }
 
@@ -1209,6 +1217,15 @@ body:has(#theme-toggle:checked) .hero::before {
         max-width: 320px;
         margin: 0 auto;
     }
+    .mood table{
+        margin: auto;
+        vertical-align: middle;
+        writing-mode: vertical-rl;
+    }
+    tr, th{
+    writing-mode: horizontal-tb;
+    }
+    
 }
 
 
@@ -1388,6 +1405,14 @@ body:has(#theme-toggle:checked) .hero::before {
         max-width: 280px;
         margin: 0 auto;
     }
+    .mood table{
+        margin: auto;
+        vertical-align: middle;
+        writing-mode: vertical-rl;
+    }
+    tr, th{
+    writing-mode: horizontal-tb;
+    }
 }
 
 
@@ -1558,6 +1583,14 @@ body:has(#theme-toggle:checked) .hero::before {
         max-height: 350px;
         max-width: 260px;
         margin: 0 auto;
+    }
+    .mood table{
+        margin: auto;
+        vertical-align: middle;
+        writing-mode: vertical-rl;
+    }
+    tr, th{
+    writing-mode: horizontal-tb;
     }
 }
 
@@ -1764,6 +1797,14 @@ body:has(#theme-toggle:checked) .hero::before {
     .section {
         margin-bottom: 2rem;
     }
+    .mood table{
+        margin: auto;
+        vertical-align: middle;
+        writing-mode: vertical-rl;
+    }
+    tr, th{
+    writing-mode: horizontal-tb;
+    }
 
 
 }
@@ -1789,5 +1830,13 @@ body:has(#theme-toggle:checked) .hero::before {
 
     .card:hover {
         transform: none;
+    }
+    .mood table{
+        margin: auto;
+        vertical-align: middle;
+        writing-mode: vertical-rl;
+    }
+    tr, th{
+    writing-mode: horizontal-tb;
     }
 }
