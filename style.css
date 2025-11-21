@@ -1,16 +1,39 @@
+@media (min-wigth: 1200px) {
+    
+}
+
+@media (min-wigth: 992px) {
+    
+}
+
+@media (min-wigth: 768px) {
+    
+}
+
+@media (min-wigth: 480px) {
+    
+}
+
+@media (min-wigth: 320px) {
+    
+}
+
+
+
+
 .textMon{
     cursor: default;
     position: absolute;
-    top: 1480px;
+    top: -90px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;  
-    padding: 0.7vw 14vw;
+    padding: 14px 270px;
     background: #399dcb;
     color: white;
     text-decoration: none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5vw;
-    left: 52vw;
+    font-size: 25px;
+    left: 0px;
     border-radius: 20px;
     box-shadow: 0 10px 40px rgba(0,0,0,0.5),
                 0 0 0 4px rgba(255,255,255,0.1);
@@ -18,6 +41,7 @@
     animation: fadeInUp 1s ease-out 0.3s both;
     filter: brightness(0.95);
     justify-content: center;
+    z-index: 1;
 }
 
 .textMon:hover {
@@ -65,9 +89,9 @@ html{
 
 .slides {
     position: relative;
-    top: 1500px;
-    max-width: 33.5vw;
-    left: 20vw;
+    top: 1525px;
+    max-width: 666px;
+    left: 17vw;
     margin: 50px auto;
 }
 
@@ -78,7 +102,7 @@ html{
     border-radius: 20px;
     text-align: center;
     font-family: "Courier New", monospace;
-    font-size: 1.3vw;
+    font-size: 26px;
     color: white;
      box-shadow: 0 10px 40px rgba(0,0,0,0.5),
                 0 0 0 4px rgba(255,255,255,0.1);
@@ -109,7 +133,7 @@ html{
 }
 
 .nav label {
-    top: 1460px;
+    top: 1490px;
     position: relative;
     padding: 10px 20px;
     background: #399dcb;
@@ -128,13 +152,13 @@ html{
 .next{
     font-size: 1.3vw;
     width: 100px;
-    left: 30vw;
+    left: 26.5vw;
    
 }
 .prev{  
     font-size: 1.3vw;
     width: 100px; 
-    left: 10vw;
+    left: 7.5vw;
 
 }
 
@@ -194,9 +218,8 @@ html{
 
 .slidesf {
     position: relative;
-    top: 2000px;
+    top: 1660px;
     max-width: 55vw;
-    left: 0vw;
     margin: 50px auto;
 }
 
@@ -205,7 +228,7 @@ html{
     padding: 30px;
     background: #399dcb88;
     border-radius: 20px;
-    text-align: center;
+ 
     font-family: "Courier New", monospace;
     font-size: 1.3vw;
     color: white;
@@ -238,7 +261,7 @@ html{
 }
 
 .navf label {
-    top: 1960px;
+    top: 1625px;
     position: relative;
     padding: 10px 20px;
     background: #399dcb;
@@ -367,7 +390,7 @@ body:has(#toggle:checked)::after {
 
 .inha{
     position: absolute;
-    top: 1vw;
+    top: 1vh;
     left: 1vw;
     transition: 0.3s all ;
     border-radius: 20px;
@@ -384,10 +407,9 @@ body:has(#toggle:checked)::after {
 }
 
 #scrol{
-    position: absolute;
-    top: 47vw;
+    position: relative;
+    top: 900px;
 }
-
 
 #Textmy{
     cursor: default;
@@ -399,8 +421,8 @@ body:has(#toggle:checked)::after {
     background: #399dcb;
     color: white;
     text-decoration: none;
-    font-size: 1.2vw;
-    left: 5%;
+    font-size: 25px;
+    left: 200px;
     border-radius: 20px;
     box-shadow: 0 10px 40px rgba(0,0,0,0.5),
                 0 0 0 4px rgba(255,255,255,0.1);
@@ -421,15 +443,14 @@ body:has(#toggle:checked)::after {
 .textfilmf{
     cursor: default;
     position: absolute;
-    top: 2000px;
+    top: -80px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;  
-    padding: 0.7vw 14vw;
+    padding: 1% 22vw;
     background: #399dcb;
     color: white;
     text-decoration: none;
-    font-size: 1.2vw;
-    left: 55vw;
+    font-size: 25px;
     border-radius: 20px;
     box-shadow: 0 10px 40px rgba(0,0,0,0.5),
                 0 0 0 4px rgba(255,255,255,0.1);
@@ -477,7 +498,7 @@ body:has(#toggle:checked)::after {
 
 .imgfilm{
     position: relative;
-    right: 30%;
+    right: 0%;
     width: 20vw;
     border-radius: 20px;
     box-shadow: 0 10px 40px rgba(0,0,0,0.5),
