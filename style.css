@@ -1115,8 +1115,7 @@ body:has(#theme-toggle:checked) .hero::before {
     }
 
     .logo {
-        width: 45px !important;
-     
+        width: 45px !important;  
     }
 
     .theme-switcher {
@@ -1250,7 +1249,7 @@ body:has(#theme-toggle:checked) .hero::before {
 
     .logo {
         width: 42px !important;
- 
+      
     }
 
     .theme-switcher {
