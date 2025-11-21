@@ -1116,7 +1116,7 @@ body:has(#theme-toggle:checked) .hero::before {
 
     .logo {
         width: 45px !important;
-        height: 45px !important;
+     
     }
 
     .theme-switcher {
@@ -1250,7 +1250,7 @@ body:has(#theme-toggle:checked) .hero::before {
 
     .logo {
         width: 42px !important;
-        height: 42px !important;
+ 
     }
 
     .theme-switcher {
@@ -1437,7 +1437,7 @@ body:has(#theme-toggle:checked) .hero::before {
 
     .logo {
         width: 38px !important;
-        height: 38px !important;
+       
     }
 
     .theme-switcher {
@@ -1617,7 +1617,7 @@ body:has(#theme-toggle:checked) .hero::before {
 
     .logo {
         width: 35px !important;
-        height: 35px !important;
+     
     }
 
     .theme-switcher {
@@ -1816,7 +1816,6 @@ body:has(#theme-toggle:checked) .hero::before {
     .dot,
     .theme-switcher,
     .logo {
-        min-height: 44px;
         min-width: 44px;
     }
 
