@@ -1037,6 +1037,19 @@ body:has(#theme-toggle:checked) .hero::before {
 
 
 @media (min-width: 768px) and (max-width: 899px) {
+
+     .nav-menu {
+        order: 3;
+        width: 100%;
+        justify-content: space-around !important;
+        gap: 0.5rem !important;
+    }
+
+    .nav-menu a {
+        font-size: 0.85rem !important;
+        padding: 0.4rem 0.6rem !important;
+    }
+
     .container {
         max-width: 720px !important;
         padding: 3rem 1.5rem !important;
@@ -1105,13 +1118,16 @@ body:has(#theme-toggle:checked) .hero::before {
         gap: 1rem !important;
     }
 
-    .nav-menu {
-        gap: 1rem !important;
+     .nav-menu {
+        order: 3;
+        width: 100%;
+        justify-content: space-around !important;
+        gap: 0.5rem !important;
     }
 
     .nav-menu a {
-        font-size: 0.9rem !important;
-        padding: 0.4rem 0.75rem !important;
+        font-size: 0.85rem !important;
+        padding: 0.4rem 0.6rem !important;
     }
 
     .logo {
